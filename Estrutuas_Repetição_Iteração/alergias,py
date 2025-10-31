@@ -1,5 +1,5 @@
 frutas = ['Banana', 'Maçã', 'Abacaxi', 'Manga']
-alergias = ['Banana', 'Maçã']
+alergias = input("Digite as frutas que lhe causam alergia :")
 
 print('Frutas que causam alergia:')
 for fruta in frutas:

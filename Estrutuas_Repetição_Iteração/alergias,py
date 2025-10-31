@@ -1,0 +1,7 @@
+frutas = ['Banana', 'Maçã', 'Abacaxi', 'Manga']
+alergias = ['Banana', 'Maçã']
+
+print('Frutas que causam alergia:')
+for fruta in frutas:
+    if fruta in alergias:
+        print(f"-{fruta}")
